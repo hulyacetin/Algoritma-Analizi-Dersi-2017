@@ -223,7 +223,7 @@ public:
 
 
 
-    float averadgeOfDepth(){
+    float averageOfDepth(){
 
         float sum = sumRecusriveDepth(head,1);
         return sum/this->nodeCount;
@@ -267,8 +267,8 @@ int main()
 
         }
         //tree.PrintTree();
-        double av=tree.averadgeOfDepth();
-        cout<<"\tAveragde of depth:"<<av<<endl;
+        double av=tree.averageOfDepth();
+        cout<<"\tAverage of depth:"<<av<<endl;
 
 
     }
