@@ -6,7 +6,7 @@
 int i,j,k,b;
 float dizi[50][50],c,x[10],toplam=0.0;
 
-
+//   FONKSİYON İNCELENDİĞİNDE KARMAŞIKLIK O(N^2) OLUR.
 float gaussEliminasyon(int n){
  
       printf("Simdi tum matrisin satir ve sutun elemanlarini tek tek girin\n\a");
