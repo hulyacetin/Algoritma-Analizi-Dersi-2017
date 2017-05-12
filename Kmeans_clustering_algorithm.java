@@ -1,4 +1,4 @@
-public class KMeansClustering {
+public class KMeansClustering {     // karmaşıklık: O(1)
 
 public static void main(String args[]) {
     int arr[] = {2, 4, 10, 12, 3, 20, 30, 11, 25};    // initial data
