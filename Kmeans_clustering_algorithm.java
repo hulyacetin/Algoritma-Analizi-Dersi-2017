@@ -65,3 +65,52 @@ public static void main(String args[]) {
         System.out.print(cluster2[i] + "\t");
     }
 }
+
+    
+    
+    
+m1=2   m2=4
+After iteration 1 , cluster 1 :
+
+2	3	0	0	0	0	0	0	0	
+
+After iteration 1 , cluster 2 :
+
+4	10	12	20	30	11	25	0	0	
+m1=3   m2=16
+After iteration 2 , cluster 1 :
+
+2	4	3	0	0	0	0	0	0	
+
+After iteration 2 , cluster 2 :
+
+10	12	20	30	11	25	0	0	0	
+m1=3   m2=18
+After iteration 3 , cluster 1 :
+
+2	4	10	3	0	0	0	0	0	
+
+After iteration 3 , cluster 2 :
+
+12	20	30	11	25	0	0	0	0	
+m1=5   m2=20
+After iteration 4 , cluster 1 :
+
+2	4	10	12	3	11	0	0	0	
+
+After iteration 4 , cluster 2 :
+
+20	30	25	0	0	0	0	0	0	
+m1=7   m2=25
+After iteration 5 , cluster 1 :
+
+2	4	10	12	3	11	0	0	0	
+
+After iteration 5 , cluster 2 :
+
+20	30	25	0	0	0	0	0	0	Final cluster 1 :
+
+2	4	10	12	3	11	0	0	0	
+Final cluster 2 :
+
+20	30	25	0	0	0	0	0	0
